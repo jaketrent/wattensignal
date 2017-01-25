@@ -1,0 +1,26 @@
+{
+  "name": "wattensignal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaketrent/wattensignal.git"
+  },
+  "keywords": [],
+  "author": "jaketrent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaketrent/wattensignal/issues"
+  },
+  "homepage": "https://github.com/jaketrent/wattensignal#readme",
+  "dependencies": {
+    "koa": "^1.2.4",
+    "koa-mount": "^1.3.0",
+    "koa-route": "^2.4.2",
+    "koa-static": "^2.0.0"
+  }
+}
