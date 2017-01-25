@@ -1,16 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
 .container {
   height: 100vh;
   weight: 100vw;
   display: flex;
   background-color: black;
+  background-image: url(/static/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   align-items: center;
   justify-content: center;
 }
 .face {
   display: block;
-  height: 512px;
-  width: 512px;
-  background: url(/static/batten.jpg) no-repeat center;
+  height: 552px;
+  width: 552px;
+  background: url(/static/masked.png) no-repeat center;
   background-size: cover;
   animation: 2.4s ease-in-out infinite batman;
 }
