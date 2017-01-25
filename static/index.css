@@ -1,6 +1,23 @@
+.container {
+  height: 100vh;
+  weight: 100vw;
+  display: flex;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+}
 .face {
   display: block;
-  outline: 1px solid red;
-  height: 30px;
-  width: 30px;
+  height: 512px;
+  width: 512px;
+  background: url(/static/batten.jpg) no-repeat center;
+  background-size: cover;
+  animation: 2.4s ease-in-out infinite batman;
+}
+@keyframes batman {
+  0% { transform: scale(1) rotate(0deg); }
+  25% { transform: scale(1.7) rotate(15deg); }
+  50% { transform: scale(1) rotate(0deg); }
+  75% { transform: scale(1.7) rotate(-15deg); }
+  100% { transform: scale(1) rotate(0deg); }
 }
